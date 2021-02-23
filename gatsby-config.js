@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
-        shopName: "gatsby-source-shopify-test-shop",
-        accessToken: "example-wou7evoh0eexuf6chooz2jai2qui9pae4tieph1sei4deiboj",
+        shopName: "graphql",
+        accessToken: "dd4d4dc146542ba7763305d71d1b3d38",
       }
     }
   ],
