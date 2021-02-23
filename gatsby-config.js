@@ -6,5 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-source-shopify",
+      options: {
+        shopName: "gatsby-source-shopify-test-shop",
+        accessToken: "example-wou7evoh0eexuf6chooz2jai2qui9pae4tieph1sei4deiboj",
+      }
+    }
+  ],
 }
